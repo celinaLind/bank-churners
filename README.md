@@ -28,3 +28,37 @@ Built end-to-end pipeline for a customer churn prediction model. During this pro
 - [Classification Algorithms for Machine Learning](https://builtin.com/data-science/supervised-machine-learning-classification)
 - [How to Improve Accuracy of Machine Learning Models](https://www.analyticsvidhya.com/blog/2015/12/improve-machine-learning-results/)
 - [Deploying Learning Models to the Cloud](https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf)
+
+## QA Workshop Notes
+- creating a machine learning model that calculates the possibility of a user leaving the bank
+- Churn is a term used for leaving a company or subscription
+- teaching a ML model patterns on set data that it can then use on unseen data to provide quick analysis and scalable predictions
+
+GOAL:<br>
+Analyze 10 features provided for each data point and predict the possibility of that customer churning
+
+"If you train on bad data you produce bad results"
+
+##### Making the model an API
+**render.com**
+--> deployment of models 
+--> gives you a domain
+--> fastAPI server
+--> send request and receive a prediction based on data
+>Create web services > select GitHub you want to work on > branch main > region> start command "python main.py" > free tier
+
+files within Churn ML model
+> main
+>xgb_model.pkl
+>requirements.txt
+
+**if you installed dependencies directly in the terminal (e.g. pip install numpy) you can do a "pip freeze > requirements.txt" to automatically add them to the file
+
+** importance of formatting data to go into the dataframe
+** in future would actually need to add error handling
+
+python needs specific versions in the requirements.txt file
+
+Resume Description Example:
+"Deployed XGBoost model to production to ** users with latency of ## milliseconds"
+
